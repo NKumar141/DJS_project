@@ -1,9 +1,8 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:tryingoutamazon/screens/HomeScreen.dart';
 import '../screens/location.dart';
 
-void main() => runApp(HomeScreen());
+void main() => runApp(MyApp());
 
 class Splash extends StatefulWidget {
   @override
