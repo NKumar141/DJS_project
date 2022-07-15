@@ -17,21 +17,11 @@ class HomeScreen extends StatelessWidget {
             AppBar(
               backgroundColor: Colors.blue[900],
               elevation: 5.0,
-              leading: InkResponse(
-                onTap: () {},
-                child: Icon(
-                  Icons.menu,
-                  size: 30,
-                  color: Colors.black,
-                ),
-              ),
               title: Padding(
-                padding: const EdgeInsets.only(right: 18.0, top: 10),
-                child: Image(
-                  image: AssetImage("assets/images/amazon_logo.jpg"),
-                  height: 30,
-                ),
-              ),
+                  padding: const EdgeInsets.only(right: 18.0, top: 10),
+                  child: Text(
+                    "Discover Deals",
+                  )),
               centerTitle: true,
               actions: <Widget>[
                 Stack(
