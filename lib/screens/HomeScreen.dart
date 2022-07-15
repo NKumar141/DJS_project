@@ -12,12 +12,12 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(80.0),
-        child: AppBar(
-          backgroundColor: Colors.blue[900],
-          elevation: 5.0,
-          leading: Column(
-            children: [
-              InkResponse(
+        child: Column(
+          children: [
+            AppBar(
+              backgroundColor: Colors.blue[900],
+              elevation: 5.0,
+              leading: InkResponse(
                 onTap: () {},
                 child: Icon(
                   Icons.menu,
@@ -25,70 +25,62 @@ class HomeScreen extends StatelessWidget {
                   color: Colors.black,
                 ),
               ),
-              InkResponse(
-                onTap: () {},
-                child: Icon(
-                  Icons.menu,
-                  size: 30,
-                  color: Colors.black,
+              title: Padding(
+                padding: const EdgeInsets.only(right: 18.0, top: 10),
+                child: Image(
+                  image: AssetImage("assets/images/amazon_logo.jpg"),
+                  height: 30,
                 ),
               ),
-            ],
-          ),
-          title: Padding(
-            padding: const EdgeInsets.only(right: 18.0, top: 10),
-            child: Image(
-              image: AssetImage("assets/images/amazon_logo.jpg"),
-              height: 30,
-            ),
-          ),
-          centerTitle: true,
-          actions: <Widget>[
-            Stack(
-              children: <Widget>[
+              centerTitle: true,
+              actions: <Widget>[
+                Stack(
+                  children: <Widget>[
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, right: 20),
+                      child: InkResponse(
+                        onTap: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (_) => CartScreen()));
+                        },
+                        child: Icon(
+                          Icons.shopping_basket,
+                          size: 30,
+                          color: Colors.black,
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      bottom: 8,
+                      right: 16,
+                      child: Container(
+                        height: 20,
+                        width: 20,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.orange,
+                        ),
+                        child: Center(
+                          child: Text(
+                            '5',
+                            style: TextStyle(fontWeight: FontWeight.w500, color: Colors.white),
+                          ),
+                        ),
+                      ),
+                    )
+                  ],
+                ),
                 Padding(
-                  padding: EdgeInsets.only(top: 10, right: 20),
+                  padding: EdgeInsets.only(right: 20),
                   child: InkResponse(
-                    onTap: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (_) => CartScreen()));
-                    },
+                    onTap: () {},
                     child: Icon(
-                      Icons.shopping_basket,
+                      Icons.search,
                       size: 30,
                       color: Colors.black,
                     ),
                   ),
                 ),
-                Positioned(
-                  bottom: 8,
-                  right: 16,
-                  child: Container(
-                    height: 20,
-                    width: 20,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      color: Colors.orange,
-                    ),
-                    child: Center(
-                      child: Text(
-                        '5',
-                        style: TextStyle(fontWeight: FontWeight.w500, color: Colors.white),
-                      ),
-                    ),
-                  ),
-                )
               ],
-            ),
-            Padding(
-              padding: EdgeInsets.only(right: 20),
-              child: InkResponse(
-                onTap: () {},
-                child: Icon(
-                  Icons.search,
-                  size: 30,
-                  color: Colors.black,
-                ),
-              ),
             ),
           ],
         ),
