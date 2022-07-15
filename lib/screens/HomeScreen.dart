@@ -13,8 +13,25 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         elevation: 5.0,
-        leading: Padding(
-          padding: EdgeInsets.only(left: 20),
+        leading: Column(
+          children: [
+            InkResponse(
+              onTap: () {},
+              child: Icon(
+                Icons.menu,
+                size: 30,
+                color: Colors.black,
+              ),
+            ),
+            InkResponse(
+              onTap: () {},
+              child: Icon(
+                Icons.menu,
+                size: 30,
+                color: Colors.black,
+              ),
+            ),
+          ],
           child: InkResponse(
             onTap: () {},
             child: Icon(
