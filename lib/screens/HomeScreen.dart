@@ -32,14 +32,6 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
           ],
-          child: InkResponse(
-            onTap: () {},
-            child: Icon(
-              Icons.menu,
-              size: 30,
-              color: Colors.black,
-            ),
-          ),
         ),
         title: Padding(
           padding: const EdgeInsets.only(right: 18.0, top: 10),
