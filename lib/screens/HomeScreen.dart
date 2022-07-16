@@ -11,33 +11,50 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: PreferredSize(
-          preferredSize: Size.fromHeight(90.0),
-          child: Container(
-              child: Column(
-            mainAxisAlignment: MainAxisAlignment.end,
-            children: <Widget>[
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 10),
-                child: Row(
-                  children: <Widget>[
-                    Padding(
-                      padding: EdgeInsets.only(top: 10, right: 20),
-                      child: InkResponse(
-                        onTap: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (_) => CartScreen()));
-                        },
-                        child: Icon(
-                          Icons.notifications,
-                          size: 30,
-                          color: Colors.white,
-                        ),
-                      ),
-                    )
-                  ],
-                ),
+        preferredSize: const Size.fromHeight(80.0),
+        child: Container(
+            decoration: const BoxDecoration(
+              gradient: LinearGradient(
+                colors: <Color>[
+                  Colors.blue,
+                  Colors.pink
+                ],
               ),
-            ],
-          ))),
+            ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: <Widget>[
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: Row(
+                    children: <Widget>[
+                      const Text(
+                        'PreferredSize Sample',
+                        style: TextStyle(color: Colors.white),
+                      ),
+                      const Spacer(),
+                      IconButton(
+                        icon: const Icon(
+                          Icons.search,
+                          size: 20,
+                        ),
+                        color: Colors.white,
+                        onPressed: () {},
+                      ),
+                      IconButton(
+                        icon: const Icon(
+                          Icons.more_vert,
+                          size: 20,
+                        ),
+                        color: Colors.white,
+                        onPressed: () {},
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            )),
+      ),
       body: ListView(
         children: <Widget>[
           Stack(
