@@ -20,27 +20,19 @@ class HomeScreen extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(horizontal: 10),
                 child: Row(
                   children: <Widget>[
-                    const Text(
-                      'PreferredSize Sample',
-                      style: TextStyle(color: Colors.white),
-                    ),
-                    const Spacer(),
-                    IconButton(
-                      icon: const Icon(
-                        Icons.search,
-                        size: 20,
+                    Padding(
+                      padding: EdgeInsets.only(top: 10, right: 20),
+                      child: InkResponse(
+                        onTap: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (_) => CartScreen()));
+                        },
+                        child: Icon(
+                          Icons.notifications,
+                          size: 30,
+                          color: Colors.white,
+                        ),
                       ),
-                      color: Colors.white,
-                      onPressed: () {},
-                    ),
-                    IconButton(
-                      icon: const Icon(
-                        Icons.more_vert,
-                        size: 20,
-                      ),
-                      color: Colors.white,
-                      onPressed: () {},
-                    ),
+                    )
                   ],
                 ),
               ),
