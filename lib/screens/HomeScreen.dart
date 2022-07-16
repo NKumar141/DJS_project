@@ -31,7 +31,7 @@ class HomeScreen extends StatelessWidget {
                       IconButton(
                         icon: const Icon(
                           Icons.notifications,
-                          size: 25,
+                          size: 20,
                         ),
                         color: Colors.white,
                         onPressed: () {},
