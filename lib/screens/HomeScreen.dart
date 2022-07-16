@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
               backgroundColor: Colors.blue[900],
               elevation: 5.0,
               title: Padding(
-                  padding: const EdgeInsets.only(right: 2.0, top: 5),
+                  padding: const EdgeInsets.only(right: 2.0, top: 2),
                   child: Text(
                     "Discover Deals",
                   )),
