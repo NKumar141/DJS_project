@@ -17,6 +17,7 @@ class HomeScreen extends StatelessWidget {
               gradient: LinearGradient(
                 colors: <Color>[
                   Colors.blue,
+                  Colors.pink,
                 ],
               ),
             ),
