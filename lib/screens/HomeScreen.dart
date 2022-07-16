@@ -32,25 +32,9 @@ class HomeScreen extends StatelessWidget {
                           padding: const EdgeInsets.only(right: 2.0, top: 2),
                           child: Text(
                             "Discover Deals",
-                            style: TextStyle(color: Colors.white, fontSize: 25),
+                            style: TextStyle(color: Colors.white, fontSize: 20),
                           )),
-                      const Spacer(),
-                      IconButton(
-                        icon: const Icon(
-                          Icons.search,
-                          size: 20,
-                        ),
-                        color: Colors.white,
-                        onPressed: () {},
-                      ),
-                      IconButton(
-                        icon: const Icon(
-                          Icons.more_vert,
-                          size: 20,
-                        ),
-                        color: Colors.white,
-                        onPressed: () {},
-                      ),
+                      //const Spacer(),
                     ],
                   ),
                 ),
