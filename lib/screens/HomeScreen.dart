@@ -11,46 +11,41 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(90.0),
-        child: Column(
-          children: [
-            AppBar(
-              backgroundColor: Colors.blue[900],
-              elevation: 5.0,
-              title: Padding(
-                  padding: const EdgeInsets.only(right: 2.0, top: 2),
-                  child: Text(
-                    "Discover Deals",
-                  )),
-              //Title: true,
-              actions: <Widget>[
-                Stack(
+          preferredSize: Size.fromHeight(90.0),
+          child: Container(
+              child: Column(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: <Widget>[
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 10),
+                child: Row(
                   children: <Widget>[
-                    Padding(
-                      padding: EdgeInsets.only(top: 10, right: 20),
-                      child: InkResponse(
-                        onTap: () {
-                          Navigator.push(context, MaterialPageRoute(builder: (_) => CartScreen()));
-                        },
-                        child: Icon(
-                          Icons.notifications,
-                          size: 30,
-                          color: Colors.white,
-                        ),
+                    const Text(
+                      'PreferredSize Sample',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    const Spacer(),
+                    IconButton(
+                      icon: const Icon(
+                        Icons.search,
+                        size: 20,
                       ),
+                      color: Colors.white,
+                      onPressed: () {},
+                    ),
+                    IconButton(
+                      icon: const Icon(
+                        Icons.more_vert,
+                        size: 20,
+                      ),
+                      color: Colors.white,
+                      onPressed: () {},
                     ),
                   ],
                 ),
-              ],
-            ),
-            AppBar(
-              backgroundColor: Colors.blue[900],
-              elevation: 5.0,
-              title: ElevatedButton(child: Text("Search for a Deal or Catogry")),
-            )
-          ],
-        ),
-      ),
+              ),
+            ],
+          ))),
       body: ListView(
         children: <Widget>[
           Stack(
