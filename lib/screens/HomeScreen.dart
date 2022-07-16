@@ -144,11 +144,11 @@ class HomeScreen extends StatelessWidget {
             height: 15,
           ),
           ProductCarousal(
-            title: "Amazon Prime Deals",
+            title: "Offers Near Me",
             products: products,
           ),
           ProductCarousal(
-            title: "Popular Books",
+            title: "Favourite Buisnesses",
             products: books,
           ),
         ],
