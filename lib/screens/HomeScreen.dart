@@ -35,6 +35,14 @@ class HomeScreen extends StatelessWidget {
                             style: TextStyle(color: Colors.white, fontSize: 20),
                           )),
                       //const Spacer(),
+                      IconButton(
+                        icon: const Icon(
+                          Icons.notifications,
+                          size: 20,
+                        ),
+                        color: Colors.white,
+                        onPressed: () {},
+                      ),
                     ],
                   ),
                 ),
