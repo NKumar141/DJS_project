@@ -33,42 +33,13 @@ class HomeScreen extends StatelessWidget {
                           Navigator.push(context, MaterialPageRoute(builder: (_) => CartScreen()));
                         },
                         child: Icon(
-                          Icons.shopping_basket,
+                          Icons.notifications,
                           size: 30,
-                          color: Colors.black,
+                          color: Colors.white,
                         ),
                       ),
                     ),
-                    Positioned(
-                      bottom: 8,
-                      right: 16,
-                      child: Container(
-                        height: 20,
-                        width: 20,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          color: Colors.orange,
-                        ),
-                        child: Center(
-                          child: Text(
-                            '5',
-                            style: TextStyle(fontWeight: FontWeight.w500, color: Colors.white),
-                          ),
-                        ),
-                      ),
-                    )
                   ],
-                ),
-                Padding(
-                  padding: EdgeInsets.only(right: 20),
-                  child: InkResponse(
-                    onTap: () {},
-                    child: Icon(
-                      Icons.search,
-                      size: 30,
-                      color: Colors.black,
-                    ),
-                  ),
                 ),
               ],
             ),
