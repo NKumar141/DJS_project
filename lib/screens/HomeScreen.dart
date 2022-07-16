@@ -43,7 +43,7 @@ class HomeScreen extends StatelessWidget {
                   padding: const EdgeInsets.fromLTRB(20, 0, 20, 10),
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.indigo[200], // background
+                      primary: Colors.indigo[300], // background
                       onPrimary: Colors.white, // foreground
                     ),
                     onPressed: () {},
