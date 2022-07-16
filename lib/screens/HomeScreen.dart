@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
             decoration: const BoxDecoration(
               gradient: LinearGradient(
                 colors: <Color>[
-                  Colors.blue[900],
+                  Colors.blue,
                 ],
               ),
             ),
