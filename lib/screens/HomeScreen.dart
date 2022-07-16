@@ -47,7 +47,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(20, 10, 20, 10),
+                  padding: const EdgeInsets.fromLTRB(20, 5, 20, 10),
                   child: ElevatedButton(onPressed: () {}, child: Text("hi")),
                 ),
               ],
