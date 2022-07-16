@@ -34,7 +34,7 @@ class HomeScreen extends StatelessWidget {
                             "Discover Deals",
                             style: TextStyle(color: Colors.white, fontSize: 20),
                           )),
-                      //const Spacer(),
+                      const Spacer(),
                       IconButton(
                         icon: const Icon(
                           Icons.notifications,
