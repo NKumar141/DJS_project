@@ -43,6 +43,10 @@ class HomeScreen extends StatelessWidget {
                 ),
               ],
             ),
+            ElevatedButton(
+              onPressed: () {},
+              child: Text("Search for a Deal or Category..."),
+            ),
           ],
         ),
       ),
