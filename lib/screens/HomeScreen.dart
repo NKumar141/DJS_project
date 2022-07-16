@@ -42,6 +42,7 @@ class HomeScreen extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.fromLTRB(20, 0, 20, 10),
                   child: ElevatedButton(
+                    style: ButtonStyle(backgroundColor: Colors.blue[200]),
                     onPressed: () {},
                     child: Row(children: [
                       Text("Search for a Deal or Category...", style: TextStyle(color: Colors.white, fontSize: 15)),
