@@ -43,10 +43,11 @@ class HomeScreen extends StatelessWidget {
                 ),
               ],
             ),
-            ElevatedButton(
-              onPressed: () {},
-              child: Text("Search for a Deal or Category..."),
-            ),
+            AppBar(
+              backgroundColor: Colors.blue[900],
+              elevation: 5.0,
+              title: ElevatedButton(child: Text("Search for a Deal or Catogry")),
+            )
           ],
         ),
       ),
