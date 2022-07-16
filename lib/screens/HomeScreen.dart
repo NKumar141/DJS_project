@@ -13,14 +13,7 @@ class HomeScreen extends StatelessWidget {
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(90.0),
         child: Container(
-            decoration: const BoxDecoration(
-              gradient: LinearGradient(
-                colors: <Color>[
-                  Colors.blue,
-                  Colors.pink,
-                ],
-              ),
-            ),
+            color: Colors.blue[900],
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
               children: <Widget>[
