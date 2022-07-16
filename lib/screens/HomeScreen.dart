@@ -41,18 +41,21 @@ class HomeScreen extends StatelessWidget {
                 ),
                 Padding(
                   padding: const EdgeInsets.fromLTRB(20, 5, 20, 10),
-                  child: Row(children: [
-                    ElevatedButton(onPressed: () {}, child: Text("Search for a Deal or Category...", style: TextStyle(color: Colors.white, fontSize: 15))),
-                    const Spacer(),
-                    IconButton(
-                      icon: const Icon(
-                        Icons.search,
-                        size: 20,
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Row(children: [
+                      Text("Search for a Deal or Category...", style: TextStyle(color: Colors.white, fontSize: 15)),
+                      const Spacer(),
+                      IconButton(
+                        icon: const Icon(
+                          Icons.search,
+                          size: 20,
+                        ),
+                        color: Colors.white,
+                        onPressed: () {},
                       ),
-                      color: Colors.white,
-                      onPressed: () {},
-                    ),
-                  ]),
+                    ]),
+                  ),
                 ),
               ],
             )),
