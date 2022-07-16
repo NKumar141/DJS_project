@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
                   child: Row(
                     children: <Widget>[
                       const Padding(
-                          padding: const EdgeInsets.only(right: 2.0, top: 2),
+                          padding: const EdgeInsets.only(left: 2, right: 2.0, top: 2),
                           child: Text(
                             "Discover Deals",
                             style: TextStyle(color: Colors.white, fontSize: 20),
