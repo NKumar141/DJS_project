@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
                   child: Text(
                     "Discover Deals",
                   )),
-              centerTitle: true,
+              //Title: true,
               actions: <Widget>[
                 Stack(
                   children: <Widget>[
