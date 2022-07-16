@@ -47,12 +47,8 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 10),
-                  child: Row(
-                    children: <Widget>[
-                      ElevatedButton(onPressed: () {}, child: Text("hi")),
-                    ],
-                  ),
+                  padding: const EdgeInsets.fromLTRB(20, 10, 20, 30),
+                  child: ElevatedButton(onPressed: () {}, child: Text("hi")),
                 ),
               ],
             )),
