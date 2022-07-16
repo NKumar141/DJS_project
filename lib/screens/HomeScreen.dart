@@ -32,6 +32,7 @@ class HomeScreen extends StatelessWidget {
                           padding: const EdgeInsets.only(right: 2.0, top: 2),
                           child: Text(
                             "Discover Deals",
+                            style: TextStyle(color: Colors.white, fontSize: 15),
                           )),
                       const Spacer(),
                       IconButton(
