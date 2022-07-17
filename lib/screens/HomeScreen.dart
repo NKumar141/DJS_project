@@ -73,7 +73,7 @@ class HomeScreen extends StatelessWidget {
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("Today in Myrtle Beach", style: TextStyle(color: Colors.blue, fontSize: 15)),
+                      Text("Today in Myrtle Beach", style: TextStyle(color: Colors.blue, fontSize: 20)),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -85,9 +85,9 @@ class HomeScreen extends StatelessWidget {
                           Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              Text("70 F C", style: TextStyle(color: Colors.blue, fontSize: 10)),
-                              Text("Precitipation: 2%", style: TextStyle(color: Colors.blue, fontSize: 10)),
-                              Text("Sun Index : 5-5", style: TextStyle(color: Colors.blue, fontSize: 10)),
+                              Text("70 F C", style: TextStyle(color: Colors.blue, fontSize: 15)),
+                              Text("Precitipation: 2%", style: TextStyle(color: Colors.blue, fontSize: 15)),
+                              Text("Sun Index : 5-5", style: TextStyle(color: Colors.blue, fontSize: 15)),
                             ],
                           ),
                         ],
@@ -97,7 +97,7 @@ class HomeScreen extends StatelessWidget {
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("Today in Myrtle Beach", style: TextStyle(color: Colors.blue, fontSize: 15)),
+                      Text("Today in Myrtle Beach", style: TextStyle(color: Colors.blue, fontSize: 20)),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -109,9 +109,9 @@ class HomeScreen extends StatelessWidget {
                           Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              Text("70 F C", style: TextStyle(color: Colors.blue, fontSize: 10)),
-                              Text("Precitipation: 2%", style: TextStyle(color: Colors.blue, fontSize: 10)),
-                              Text("Sun Index : 5-5", style: TextStyle(color: Colors.blue, fontSize: 10)),
+                              Text("70 F C", style: TextStyle(color: Colors.blue, fontSize: 15)),
+                              Text("Precitipation: 2%", style: TextStyle(color: Colors.blue, fontSize: 15)),
+                              Text("Sun Index : 5-5", style: TextStyle(color: Colors.blue, fontSize: 15)),
                             ],
                           ),
                         ],
