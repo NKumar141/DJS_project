@@ -66,54 +66,52 @@ class HomeScreen extends StatelessWidget {
         ),
         body: ListView(
           children: <Widget>[
-            Container(
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text("Today in Myrtle Beach", style: TextStyle(color: Colors.blue, fontSize: 17)),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Image(
-                            image: AssetImage('assets/images/image 2.png'),
-                            height: 67,
-                            width: 62,
-                          ),
-                          Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Text("70 F C", style: TextStyle(color: Colors.blue, fontSize: 15)),
-                              Text("Precitipation: 2%", style: TextStyle(color: Colors.blue, fontSize: 15)),
-                              Text("Sun Index : 5-5", style: TextStyle(color: Colors.blue, fontSize: 15)),
-                            ],
-                          ),
-                        ],
-                      ),
-                      OutlinedButton.icon(
-                        style: ButtonStyle(shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(18.0), side: BorderSide(color: Colors.red)))),
-                        label: Text('''  Offers 
-  Redeemed''', style: TextStyle(color: Colors.black, fontSize: 15)),
-                        icon: Image(
-                          image: AssetImage('assets/images/14.png'),
-                          height: 30,
-                          width: 30,
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text("Today in Myrtle Beach", style: TextStyle(color: Colors.blue, fontSize: 17)),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Image(
+                          image: AssetImage('assets/images/image 2.png'),
+                          height: 67,
+                          width: 62,
                         ),
-                        onPressed: () {
-                          print('Pressed');
-                        },
-                      )
-                    ],
-                  ),
-                  Image(
-                    image: AssetImage('assets/images/stuart.png'),
-                    height: 222,
-                    width: 187,
-                  ),
-                ],
-              ),
+                        Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text("70 F C", style: TextStyle(color: Colors.blue, fontSize: 15)),
+                            Text("Precitipation: 2%", style: TextStyle(color: Colors.blue, fontSize: 15)),
+                            Text("Sun Index : 5-5", style: TextStyle(color: Colors.blue, fontSize: 15)),
+                          ],
+                        ),
+                      ],
+                    ),
+                    OutlinedButton.icon(
+                      style: ButtonStyle(shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(18.0), side: BorderSide(color: Colors.red)))),
+                      label: Text('''  Offers 
+  Redeemed''', style: TextStyle(color: Colors.black, fontSize: 15)),
+                      icon: Image(
+                        image: AssetImage('assets/images/14.png'),
+                        height: 30,
+                        width: 30,
+                      ),
+                      onPressed: () {
+                        print('Pressed');
+                      },
+                    )
+                  ],
+                ),
+                Image(
+                  image: AssetImage('assets/images/stuart.png'),
+                  height: 222,
+                  width: 187,
+                ),
+              ],
             ),
             Container(
               padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
