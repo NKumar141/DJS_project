@@ -50,8 +50,8 @@ class ProductCarousal extends StatelessWidget {
               onPressed: () {},
             ),
             OutlinedButton.icon(
-              label: Text('Woolha.com'),
-              icon: Icon(Icons.web),
+              label: Text('3-5 miles'),
+              icon: Icon(Icons.location_pin),
               onPressed: () {
                 print('Pressed');
               },
