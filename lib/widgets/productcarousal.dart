@@ -32,19 +32,33 @@ class ProductCarousal extends StatelessWidget {
               fit: BoxFit.fill,
             ),
           ),
+          SizedBox(
+            height: 5,
+          ),
           Text(products[index].name, style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold), textAlign: TextAlign.center),
           SizedBox(
-            height: 8,
+            height: 5,
           ),
-          FlatButton(
-            padding: EdgeInsets.all(4),
-            color: Colors.blueAccent,
-            child: Text(
-              "Add",
-              style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
+          Row(children: [
+            FlatButton(
+              padding: EdgeInsets.all(4),
+              color: Colors.blueAccent,
+              child: Text(
+                "Add",
+                style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
+              ),
+              onPressed: () {},
             ),
-            onPressed: () {},
-          )
+            FlatButton(
+              padding: EdgeInsets.all(4),
+              color: Colors.blueAccent,
+              child: Text(
+                "Add",
+                style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
+              ),
+              onPressed: () {},
+            ),
+          ]),
         ],
       ),
     );
