@@ -18,6 +18,9 @@ class _MyHomePageState extends State<yes> {
             alignment: Alignment.center,
             fit: BoxFit.fill,
           ),
+          SizedBox(
+            height: 10,
+          ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
