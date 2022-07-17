@@ -75,7 +75,7 @@ class HomeScreen extends StatelessWidget {
                     children: [
                       Text("heyo"),
                       Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Icon(Icons.sunny),
                           Column(
