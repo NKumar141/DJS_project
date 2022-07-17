@@ -95,7 +95,7 @@ class HomeScreen extends StatelessWidget {
               backgroundColor: Colors.blue, // <-- This works for shifting
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.wallet_giftcard),
               label: 'Redeem',
               backgroundColor: Colors.blue, // <-- This works for shifting
             ),
