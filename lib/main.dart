@@ -74,16 +74,30 @@ class signin extends StatelessWidget {
                         height: 70,
                       ),
                       Text(
-                        "Continue With Apple",
+                        "Continue With Google",
                         style: TextStyle(color: Colors.white, fontSize: 15),
                       ),
+                    ],
+                  ),
+                ),
+                OutlinedButton(
+                  onPressed: () {
+                    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => location()));
+                  },
+                  style: OutlinedButton.styleFrom(
+                    primary: Colors.white,
+                    backgroundColor: Colors.blue[900],
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
                       Image.network(
                         'https://pngimg.com/uploads/apple_logo/apple_logo_PNG19680.png',
                         width: 70,
                         height: 70,
                       ),
                       Text(
-                        "Continue With Google",
+                        "Continue With Apple",
                         style: TextStyle(color: Colors.white, fontSize: 15),
                       ),
                     ],
