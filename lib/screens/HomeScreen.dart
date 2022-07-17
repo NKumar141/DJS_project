@@ -73,7 +73,7 @@ class HomeScreen extends StatelessWidget {
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("Today in Myrtle Beach", style: TextStyle(color: Colors.blue, fontSize: 20)),
+                      Text("Today in Myrtle Beach", style: TextStyle(color: Colors.blue, fontSize: 17)),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -116,7 +116,7 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             Container(
-              padding: EdgeInsets.fromLTRB(10, 20, 10, 0),
+              padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
