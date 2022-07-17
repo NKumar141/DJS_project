@@ -85,14 +85,24 @@ class HomeScreen extends StatelessWidget {
           unselectedItemColor: Colors.grey,
           items: [
             BottomNavigationBarItem(
-              icon: Icon(Icons.call),
-              label: 'Call',
+              icon: Icon(Icons.home),
+              label: 'Home',
               backgroundColor: Colors.blue, // <-- This works for shifting
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.message),
-              label: 'Message',
-              backgroundColor: Colors.green, // <-- This works for shifting
+              icon: Icon(Icons.search),
+              label: 'Search',
+              backgroundColor: Colors.blue, // <-- This works for shifting
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.wallet),
+              label: 'Redeem',
+              backgroundColor: Colors.blue, // <-- This works for shifting
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.person),
+              label: 'Profile',
+              backgroundColor: Colors.blue, // <-- This works for shifting
             ),
           ],
         ));
