@@ -31,8 +31,8 @@ class _MyHomePageState extends State<yes> {
     Theatre''', style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 30)),
               Image.network(
                 'https://png.pngtree.com/png-clipart/20220429/original/pngtree-glossy-heart-best-vector-ai-and-png-png-image_7581956.png',
-                height: 30,
-                width: 30,
+                height: 40,
+                width: 40,
               ),
             ],
           ),
