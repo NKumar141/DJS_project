@@ -90,7 +90,7 @@ class signin extends StatelessWidget {
                   style: OutlinedButton.styleFrom(
                     primary: Colors.white,
                     backgroundColor: Colors.blue[900],
-                     minimumSize: Size.fromHeight(70,
+                    minimumSize: Size.fromHeight(70),
                   ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
