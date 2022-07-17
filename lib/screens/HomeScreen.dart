@@ -67,7 +67,7 @@ class HomeScreen extends StatelessWidget {
         body: ListView(
           children: <Widget>[
             Container(
-              padding: EdgeInsets.all(10),
+              padding: EdgeInsets.fromLTRB(10, 20, 10, 0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
