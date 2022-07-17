@@ -94,7 +94,8 @@ class HomeScreen extends StatelessWidget {
                       ),
                       OutlinedButton.icon(
                         style: ButtonStyle(shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(18.0), side: BorderSide(color: Colors.red)))),
-                        label: Text('3-5 miles'),
+                        label: Text('''3-5 miles
+                        fdfdf'''),
                         icon: Image(
                           image: AssetImage('assets/images/14.png'),
                         ),
