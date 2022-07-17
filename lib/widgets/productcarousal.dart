@@ -25,8 +25,8 @@ class ProductCarousal extends StatelessWidget {
             color: Colors.white,
             child: Image(
               image: AssetImage(products[index].imageUrl),
-              height: 200,
-              width: 200,
+              height: 250,
+              width: 250,
             ),
           ),
           Text(products[index].name, style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold), textAlign: TextAlign.center),
