@@ -79,7 +79,7 @@ class HomeScreen extends StatelessWidget {
             ),
           ],
         ),
-        BottomNavigationBar(
+        bottomNavigationBar: BottomNavigationBar(
           type: BottomNavigationBarType.shifting, // Shifting
           selectedItemColor: Colors.white,
           unselectedItemColor: Colors.grey,
