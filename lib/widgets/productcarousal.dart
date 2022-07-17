@@ -10,12 +10,11 @@ class ProductCarousal extends StatelessWidget {
     return Container(
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(10),
-      width: 150,
+      width: 350,
       decoration: BoxDecoration(
         color: Colors.white,
         boxShadow: [
-          BoxShadow(
-              color: Colors.black54, offset: Offset(0.0, 2.0), blurRadius: 6),
+          BoxShadow(color: Colors.black54, offset: Offset(0.0, 2.0), blurRadius: 6),
         ],
       ),
       child: Column(
@@ -31,19 +30,14 @@ class ProductCarousal extends StatelessWidget {
           SizedBox(
             height: 8,
           ),
-          Text(products[index].name,
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-              textAlign: TextAlign.center),
+          Text(products[index].name, style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold), textAlign: TextAlign.center),
           Expanded(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
               children: <Widget>[
                 Text(
                   '\$${products[index].price.toStringAsFixed(2)}',
-                  style: TextStyle(
-                      color: Colors.orange,
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold),
+                  style: TextStyle(color: Colors.orange, fontSize: 18, fontWeight: FontWeight.bold),
                 ),
                 SizedBox(
                   height: 4,
@@ -53,10 +47,7 @@ class ProductCarousal extends StatelessWidget {
                   color: Colors.blueAccent,
                   child: Text(
                     "Add",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold),
+                    style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
                   ),
                   onPressed: () {},
                 )
