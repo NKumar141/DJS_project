@@ -11,7 +11,7 @@ class ProductCarousal extends StatelessWidget {
       //margin: EdgeInsets.all(4),
       padding: EdgeInsets.all(4),
       width: 250,
-      height: 1200,
+      height: 400,
       // decoration: BoxDecoration(
       //   color: Colors.white,
       //   boxShadow: [
@@ -19,7 +19,7 @@ class ProductCarousal extends StatelessWidget {
       //   ],
       // ),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
+        //crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Container(
             color: Colors.white,
