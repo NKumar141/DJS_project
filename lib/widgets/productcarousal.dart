@@ -44,20 +44,18 @@ class ProductCarousal extends StatelessWidget {
               padding: EdgeInsets.all(4),
               color: Colors.blue[100],
               child: Text(
-                "Add",
+                "Entertainment",
                 style: TextStyle(color: Colors.blue, fontSize: 16, fontWeight: FontWeight.bold),
               ),
               onPressed: () {},
             ),
-            FlatButton(
-              padding: EdgeInsets.all(4),
-              color: Colors.white,
-              child: Text(
-                "Add",
-                style: TextStyle(color: Colors.black87, fontSize: 16, fontWeight: FontWeight.bold),
-              ),
-              onPressed: () {},
-            ),
+            OutlinedButton.icon(
+              label: Text('Woolha.com'),
+              icon: Icon(Icons.web),
+              onPressed: () {
+                print('Pressed');
+              },
+            )
           ]),
         ],
       ),
