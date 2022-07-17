@@ -74,7 +74,7 @@ class HomeScreen extends StatelessWidget {
                     style: ButtonStyle(shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(18.0), side: BorderSide(color: Colors.red)))),
                     child: Text(
                       'Dining',
-                      style: TextStyle(color: Colors.black, fontSize: 15),
+                      style: TextStyle(color: Colors.black, fontSize: 10),
                     ),
                     onPressed: () {
                       print('Pressed');
@@ -82,21 +82,30 @@ class HomeScreen extends StatelessWidget {
                   ),
                   OutlinedButton(
                     style: ButtonStyle(shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(18.0), side: BorderSide(color: Colors.red)))),
-                    child: Text('Catogry'),
+                    child: Text(
+                      'Catogry',
+                      style: TextStyle(color: Colors.black, fontSize: 10),
+                    ),
                     onPressed: () {
                       print('Pressed');
                     },
                   ),
                   OutlinedButton(
                     style: ButtonStyle(shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(18.0), side: BorderSide(color: Colors.red)))),
-                    child: Text('Near Me'),
+                    child: Text(
+                      'Near Me',
+                      style: TextStyle(color: Colors.black, fontSize: 10),
+                    ),
                     onPressed: () {
                       print('Pressed');
                     },
                   ),
                   OutlinedButton(
                     style: ButtonStyle(shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(18.0), side: BorderSide(color: Colors.red)))),
-                    child: Text('Most Popular'),
+                    child: Text(
+                      'Most Popular',
+                      style: TextStyle(color: Colors.black, fontSize: 10),
+                    ),
                     onPressed: () {
                       print('Pressed');
                     },
