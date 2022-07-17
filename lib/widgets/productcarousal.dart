@@ -54,7 +54,7 @@ class ProductCarousal extends StatelessWidget {
               color: Colors.white,
               child: Text(
                 "Add",
-                style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
+                style: TextStyle(color: Colors.black87, fontSize: 16, fontWeight: FontWeight.bold),
               ),
               onPressed: () {},
             ),
