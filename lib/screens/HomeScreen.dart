@@ -92,6 +92,14 @@ class HomeScreen extends StatelessWidget {
                           ),
                         ],
                       ),
+                      OutlinedButton.icon(
+                        style: ButtonStyle(shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(18.0), side: BorderSide(color: Colors.red)))),
+                        label: Text('3-5 miles'),
+                        icon: Icon(Icons.location_pin),
+                        onPressed: () {
+                          print('Pressed');
+                        },
+                      )
                     ],
                   ),
                   Column(
