@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../screens/location.dart';
 import 'models/detail.dart';
 
-void main() => runApp(detail());
+void main() => runApp(MyApp());
 
 class Splash extends StatefulWidget {
   @override
