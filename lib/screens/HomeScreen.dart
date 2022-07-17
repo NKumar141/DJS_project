@@ -73,7 +73,7 @@ class HomeScreen extends StatelessWidget {
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("heyo"),
+                      Text("Today in Myrtle Beach", style: TextStyle(color: Colors.blue, fontSize: 20)),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
