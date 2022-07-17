@@ -72,7 +72,10 @@ class HomeScreen extends StatelessWidget {
                 children: [
                   OutlinedButton(
                     style: ButtonStyle(shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(18.0), side: BorderSide(color: Colors.red)))),
-                    child: Text('Dining'),
+                    child: Text(
+                      'Dining',
+                      style: TextStyle(color: Colors.black, fontSize: 15),
+                    ),
                     onPressed: () {
                       print('Pressed');
                     },
