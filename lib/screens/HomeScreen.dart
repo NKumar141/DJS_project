@@ -79,6 +79,7 @@ class HomeScreen extends StatelessWidget {
                         children: [
                           Icon(Icons.sunny),
                           Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Text("Search for a Deal or Category...", style: TextStyle(color: Colors.black, fontSize: 15)),
                               Text("Search for a Deal or Category...", style: TextStyle(color: Colors.black, fontSize: 15)),
