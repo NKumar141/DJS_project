@@ -11,12 +11,12 @@ class ProductCarousal extends StatelessWidget {
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(10),
       width: 250,
-      decoration: BoxDecoration(
-        color: Colors.white,
-        boxShadow: [
-          BoxShadow(color: Colors.black54, offset: Offset(0.0, 2.0), blurRadius: 6),
-        ],
-      ),
+      // decoration: BoxDecoration(
+      //   color: Colors.white,
+      //   boxShadow: [
+      //     BoxShadow(color: Colors.black54, offset: Offset(0.0, 2.0), blurRadius: 6),
+      //   ],
+      // ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
