@@ -61,6 +61,16 @@ class ProductCarousal extends StatelessWidget {
               },
             )
           ]),
+          Row(children:[
+            Text(
+            "used 23 times today ,",
+            style: TextStyle(color: Colors.white, fontSize: 15),
+          ),
+          Text(
+            "2 remaining",
+            style: TextStyle(color: Colors.red, fontSize: 15),
+          ),
+          ],).
         ],
       ),
     );
