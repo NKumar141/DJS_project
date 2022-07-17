@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tryingoutamazon/models/product_model.dart';
 import 'package:dotted_border/dotted_border.dart';
+import '../../models/detail.dart';
 
 class ProductCarousal extends StatelessWidget {
   final String title;
@@ -8,7 +9,13 @@ class ProductCarousal extends StatelessWidget {
   ProductCarousal({this.title, this.products});
 
   _product(int index) {
-    return Container(
+    return InkWell(
+  onTap: () {
+    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => detail())));
+  
+  }, // Handle your callback
+  child: Container(
+      
       //margin: EdgeInsets.all(4),
       padding: EdgeInsets.all(8),
       width: 250,
@@ -102,7 +109,7 @@ class ProductCarousal extends StatelessWidget {
           )
         ],
       ),
-    );
+    ),);
   }
 
   @override
