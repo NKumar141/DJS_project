@@ -105,30 +105,8 @@ class HomeScreen extends StatelessWidget {
                       )
                     ],
                   ),
-                  Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text('''Good
-Morning!''', style: TextStyle(color: Colors.black, fontSize: 20)),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Image(
-                            image: AssetImage('assets/images/image 2.png'),
-                            height: 67,
-                            width: 62,
-                          ),
-                          Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Text("70 F C", style: TextStyle(color: Colors.blue, fontSize: 10)),
-                              Text("Precitipation: 2%", style: TextStyle(color: Colors.blue, fontSize: 10)),
-                              Text("Sun Index : 5-5", style: TextStyle(color: Colors.blue, fontSize: 10)),
-                            ],
-                          ),
-                        ],
-                      ),
-                    ],
+                  Image(
+                    image: AssetImage('assets/images/stuart.png'),
                   ),
                 ],
               ),
@@ -223,4 +201,3 @@ Morning!''', style: TextStyle(color: Colors.black, fontSize: 20)),
         ));
   }
 }
-20
