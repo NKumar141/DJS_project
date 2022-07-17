@@ -84,14 +84,14 @@ class ProductCarousal extends StatelessWidget {
           DottedBorder(
             color: Colors.black,
             padding: EdgeInsets.all(3),
-            strokeWidth: 3,
+            strokeWidth: 10,
             child: Container(
               height: 34,
               width: 220,
               color: Colors.yellow,
               child: Text(
                 "\$5 OFF the price of admission",
-                style: TextStyle(color: Colors.black, fontSize: 17),
+                style: TextStyle(color: Colors.black, fontSize: 15),
                 textAlign: TextAlign.center,
               ),
             ),
