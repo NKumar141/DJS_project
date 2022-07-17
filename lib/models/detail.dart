@@ -16,6 +16,7 @@ class _MyHomePageState extends State<yes> {
           Image(
             image: AssetImage("assets/images/photo.png"),
             alignment: Alignment.center,
+            fit: BoxFit.fill,
           ),
         ],
       ),
