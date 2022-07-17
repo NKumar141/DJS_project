@@ -84,7 +84,7 @@ class ProductCarousal extends StatelessWidget {
           DottedBorder(
             color: Colors.black,
             padding: EdgeInsets.all(3),
-            strokeWidth: 10,
+            strokeWidth: 1,
             child: Container(
               height: 34,
               width: 220,
