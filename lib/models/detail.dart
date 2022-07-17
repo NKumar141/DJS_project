@@ -19,7 +19,7 @@ class _MyHomePageState extends State<yes> {
             fit: BoxFit.fill,
           ),
           SizedBox(
-            height: 10,
+            height: 14,
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -27,7 +27,8 @@ class _MyHomePageState extends State<yes> {
               SizedBox(
                 width: 20,
               ),
-              Text('The Alabama Theatre', style: TextStyle(color: Colors.grey[800], fontWeight: FontWeight.bold, fontSize: 20)),
+              Text('''The Alabama
+ Theatre''', style: TextStyle(color: Colors.grey[800], fontWeight: FontWeight.bold, fontSize: 30)),
               Image.network(
                 'https://png.pngtree.com/png-clipart/20220429/original/pngtree-glossy-heart-best-vector-ai-and-png-png-image_7581956.png',
                 height: 30,
