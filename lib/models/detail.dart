@@ -19,7 +19,7 @@ class _MyHomePageState extends State<yes> {
             fit: BoxFit.fill,
           ),
           SizedBox(
-            height: 14,
+            height: 10,
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
