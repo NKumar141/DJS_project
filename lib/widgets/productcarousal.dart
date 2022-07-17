@@ -49,6 +49,9 @@ class ProductCarousal extends StatelessWidget {
               ),
               onPressed: () {},
             ),
+            SizedBox(
+              width: 5,
+            ),
             OutlinedButton.icon(
               label: Text('3-5 miles'),
               icon: Icon(Icons.location_pin),
