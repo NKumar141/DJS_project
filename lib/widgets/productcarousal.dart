@@ -62,6 +62,7 @@ class ProductCarousal extends StatelessWidget {
             )
           ]),
           Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
                 "used 23 times today ,",
