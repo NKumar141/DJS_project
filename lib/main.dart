@@ -74,6 +74,15 @@ class signin extends StatelessWidget {
                         height: 70,
                       ),
                       Text(
+                        "Continue With Apple",
+                        style: TextStyle(color: Colors.white, fontSize: 15),
+                      ),
+                      Image.network(
+                        'https://pngimg.com/uploads/apple_logo/apple_logo_PNG19680.png',
+                        width: 70,
+                        height: 70,
+                      ),
+                      Text(
                         "Continue With Google",
                         style: TextStyle(color: Colors.white, fontSize: 15),
                       ),
