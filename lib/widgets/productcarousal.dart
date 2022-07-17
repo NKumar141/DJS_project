@@ -79,7 +79,7 @@ class ProductCarousal extends StatelessWidget {
             ],
           ),
           SizedBox(
-            height: 6,
+            height: 8,
           ),
           DottedBorder(
             color: Colors.black,
@@ -89,6 +89,8 @@ class ProductCarousal extends StatelessWidget {
               height: 34,
               width: 220,
               color: Colors.amber,
+              child:Text("$5 OFF the price of admission",
+              style: TextStyle(color: Colors.black, fontSize: 25),),
             ),
           )
         ],
