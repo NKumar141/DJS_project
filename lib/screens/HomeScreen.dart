@@ -95,7 +95,7 @@ class HomeScreen extends StatelessWidget {
                       OutlinedButton.icon(
                         style: ButtonStyle(shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(18.0), side: BorderSide(color: Colors.red)))),
                         label: Text('''Offers 
-                        Redeemed'''),
+    Redeemed''', TextStyle(color: Colors.blue, fontSize: 20)),
                         icon: Image(
                           image: AssetImage('assets/images/14.png'),
                         ),
