@@ -84,15 +84,13 @@ class signin extends StatelessWidget {
                   height: 20,
                 ),
                 OutlinedButton(
-                  borderSide: BorderSide(
-                    height: 70,
-                  ),
                   onPressed: () {
                     Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => location()));
                   },
                   style: OutlinedButton.styleFrom(
                     primary: Colors.white,
                     backgroundColor: Colors.blue[900],
+                     minimumSize: Size.fromHeight(70,
                   ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
