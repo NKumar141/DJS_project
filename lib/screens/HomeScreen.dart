@@ -178,9 +178,14 @@ class HomeScreen extends StatelessWidget {
                 products: products,
               ),
             ),
-            ProductCarousal(
-              title: "Favourite Buisnesses",
-              products: books,
+            InkWell(
+              onTap: () {
+                Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => detail()));
+              },
+              child: ProductCarousal(
+                title: "Favourite Buisnesses",
+                products: books,
+              ),
             ),
           ],
         ),
