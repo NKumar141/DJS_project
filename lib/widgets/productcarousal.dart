@@ -27,6 +27,8 @@ class ProductCarousal extends StatelessWidget {
             ),
             child: Image(
               image: AssetImage(products[index].imageUrl),
+              height: 200,
+              width: 2700,
               fit: BoxFit.fill,
             ),
           ),
