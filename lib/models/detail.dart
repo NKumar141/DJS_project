@@ -36,9 +36,6 @@ class _MyHomePageState extends State<yes> {
               ),
             ],
           ),
-          Image(
-            image: AssetImage('assets/images/hm.png'),
-          ),
         ],
       ),
     );
