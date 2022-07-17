@@ -96,7 +96,7 @@ class HomeScreen extends StatelessWidget {
                         style: ButtonStyle(shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(18.0), side: BorderSide(color: Colors.red)))),
                         label: Text('3-5 miles'),
                         icon: Image(
-                          image: AssetImage('assets/images/image 2.png'),
+                          image: AssetImage('assets/images/14.png'),
                         ),
                         onPressed: () {
                           print('Pressed');
