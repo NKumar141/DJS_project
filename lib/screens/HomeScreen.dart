@@ -108,7 +108,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 Image(
                   image: AssetImage('assets/images/stuart.png'),
-                  height: 100,
+                  height: 150,
                   width: 187,
                 ),
               ],
