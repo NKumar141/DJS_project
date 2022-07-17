@@ -80,6 +80,9 @@ class signin extends StatelessWidget {
                     ],
                   ),
                 ),
+                SizedBox(
+                  height: 20,
+                ),
                 OutlinedButton(
                   onPressed: () {
                     Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => location()));
@@ -93,8 +96,8 @@ class signin extends StatelessWidget {
                     children: [
                       Image.network(
                         'https://pngimg.com/uploads/apple_logo/apple_logo_PNG19680.png',
-                        width: 40,
-                        height: 40,
+                        width: 70,
+                        height: 70,
                       ),
                       Text(
                         "Continue With Apple",
