@@ -79,13 +79,17 @@ class ProductCarousal extends StatelessWidget {
             ],
           ),
           SizedBox(
-            height: 6,
+            height: 8,
           ),
           DottedBorder(
             color: Colors.black,
             padding: EdgeInsets.all(3),
             strokeWidth: 3,
-            child: Text("hello dear"),
+            child: Container(
+              height: 100,
+              width: 120,
+              color: Colors.amber,
+            ),
           )
         ],
       ),
