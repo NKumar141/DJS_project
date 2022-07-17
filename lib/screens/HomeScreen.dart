@@ -94,6 +94,10 @@ class HomeScreen extends StatelessWidget {
             icon: Icon(Icons.wallet_giftcard),
             label: 'Redeem',
           ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.person),
+            label: 'Profile',
+          ),
         ],
       ),
     );
