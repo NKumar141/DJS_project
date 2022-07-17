@@ -41,6 +41,7 @@ class ProductCarousal extends StatelessWidget {
           ),
           Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
             FlatButton(
+              
               padding: EdgeInsets.all(4),
               color: Colors.blue[100],
               child: Text(
@@ -53,6 +54,14 @@ class ProductCarousal extends StatelessWidget {
               width: 5,
             ),
             OutlinedButton.icon(
+              style: ButtonStyle(
+  shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+    RoundedRectangleBorder(
+      borderRadius: BorderRadius.circular(18.0),
+      side: BorderSide(color: Colors.red)
+    )
+  )
+)
               label: Text('3-5 miles'),
               icon: Icon(Icons.location_pin),
               onPressed: () {
