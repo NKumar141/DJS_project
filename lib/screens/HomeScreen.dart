@@ -113,7 +113,7 @@ class HomeScreen extends StatelessWidget {
                   image: AssetImage('assets/images/stuart.png'),
                   fit: BoxFit.fill,
                   height: 130,
-                  width: 187,
+                  width: 180,
                 ),
               ],
             ),
