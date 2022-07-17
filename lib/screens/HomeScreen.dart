@@ -98,8 +98,8 @@ class HomeScreen extends StatelessWidget {
   Redeemed''', style: TextStyle(color: Colors.black, fontSize: 15)),
                         icon: Image(
                           image: AssetImage('assets/images/14.png'),
-                          height: 20,
-                          width: 20,
+                          height: 30,
+                          width: 30,
                         ),
                         onPressed: () {
                           print('Pressed');
@@ -109,8 +109,8 @@ class HomeScreen extends StatelessWidget {
                   ),
                   Image(
                     image: AssetImage('assets/images/stuart.png'),
-                    height: 187,
-                    width: 187,
+                    height: 250,
+                    width: 250,
                   ),
                 ],
               ),
