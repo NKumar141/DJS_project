@@ -80,7 +80,8 @@ class ProductCarousal extends StatelessWidget {
           ),
           DottedBorder(
             color: Colors.black,
-            strokeWidth: 1,
+            padding: EdgeInsets.all(6),
+            strokeWidth: 3,
             child: Text("hello dear"),
           )
         ],
@@ -101,7 +102,7 @@ class ProductCarousal extends StatelessWidget {
           ),
         ),
         Container(
-          height: 350,
+          height: 340,
           child: ListView.builder(
               padding: EdgeInsets.symmetric(horizontal: 10),
               itemCount: products.length,
