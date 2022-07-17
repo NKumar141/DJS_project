@@ -44,7 +44,7 @@ class ProductCarousal extends StatelessWidget {
               padding: EdgeInsets.all(4),
               color: Colors.blue[100],
               child: Text(
-                "Entertainment",
+                "Attraction",
                 style: TextStyle(color: Colors.blue, fontSize: 16, fontWeight: FontWeight.bold),
               ),
               onPressed: () {},
