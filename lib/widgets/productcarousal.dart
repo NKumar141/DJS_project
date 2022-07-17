@@ -89,8 +89,10 @@ class ProductCarousal extends StatelessWidget {
               height: 34,
               width: 220,
               color: Colors.amber,
-              child:Text("$5 OFF the price of admission",
-              style: TextStyle(color: Colors.black, fontSize: 25),),
+              child: Text(
+                "\$5 OFF the price of admission",
+                style: TextStyle(color: Colors.black, fontSize: 25),
+              ),
             ),
           )
         ],
