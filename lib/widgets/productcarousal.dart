@@ -42,7 +42,7 @@ class ProductCarousal extends StatelessWidget {
           Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
             FlatButton(
               padding: EdgeInsets.all(4),
-              color: Colors.blueAccent[50],
+              color: Colors.blue[100],
               child: Text(
                 "Add",
                 style: TextStyle(color: Colors.blue, fontSize: 16, fontWeight: FontWeight.bold),
@@ -51,7 +51,7 @@ class ProductCarousal extends StatelessWidget {
             ),
             FlatButton(
               padding: EdgeInsets.all(4),
-              color: Colors.blueAccent,
+              color: Colors.white,
               child: Text(
                 "Add",
                 style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
