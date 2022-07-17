@@ -19,6 +19,7 @@ class _MyHomePageState extends State<yes> {
             fit: BoxFit.fill,
           ),
           Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Text('The Alabama Theatre'),
               Image.network(
