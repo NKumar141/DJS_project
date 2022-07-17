@@ -80,9 +80,9 @@ class HomeScreen extends StatelessWidget {
                           Icon(Icons.sunny),
                           Column(
                             children: [
-                              Text("Search for a Deal or Category...", style: TextStyle(color: Colors.white, fontSize: 15)),
-                              Text("Search for a Deal or Category...", style: TextStyle(color: Colors.white, fontSize: 15)),
-                              Text("Search for a Deal or Category...", style: TextStyle(color: Colors.white, fontSize: 15)),
+                              Text("Search for a Deal or Category...", style: TextStyle(color: Colors.black, fontSize: 15)),
+                              Text("Search for a Deal or Category...", style: TextStyle(color: Colors.black, fontSize: 15)),
+                              Text("Search for a Deal or Category...", style: TextStyle(color: Colors.black, fontSize: 15)),
                             ],
                           ),
                         ],
