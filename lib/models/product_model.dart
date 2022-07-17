@@ -54,7 +54,7 @@ final List<Product> books = [
   ),
   Product(
     imageUrl: 'assets/images/photodir.png',
-    name: 'Dirty Dons Oyester Bar and Gril',
+    name: 'Dirty Dons Oyester Bar',
     price: 18.98,
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Auctor neque vitae tempus quam pellentesque nec. Volutpat consequat mauris nunc congue nisi. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Aliquam id diam maecenas ultricies mi eget.',
   ),
