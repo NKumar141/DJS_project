@@ -29,7 +29,7 @@ class ProductCarousal extends StatelessWidget {
             ),
           ),
           SizedBox(
-            height: 8,
+            height: 1,
           ),
           Text(products[index].name, style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold), textAlign: TextAlign.center),
           Expanded(
