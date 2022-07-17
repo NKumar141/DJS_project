@@ -73,7 +73,7 @@ class ProductCarousal extends StatelessWidget {
                 style: TextStyle(color: Colors.blue, fontSize: 15),
               ),
               Text(
-                "2 remaining",
+                " 2 remaining",
                 style: TextStyle(color: Colors.red, fontSize: 15),
               ),
             ],
@@ -101,7 +101,7 @@ class ProductCarousal extends StatelessWidget {
           ),
         ),
         Container(
-          height: 320,
+          height: 350,
           child: ListView.builder(
               padding: EdgeInsets.symmetric(horizontal: 10),
               itemCount: products.length,
