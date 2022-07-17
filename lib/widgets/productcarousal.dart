@@ -23,8 +23,8 @@ class ProductCarousal extends StatelessWidget {
             color: Colors.white,
             child: Image(
               image: AssetImage(products[index].imageUrl),
-              height: 100,
-              width: 286,
+              height: 200,
+              width: 200,
             ),
           ),
           SizedBox(
