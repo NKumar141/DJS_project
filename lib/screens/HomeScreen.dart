@@ -109,7 +109,7 @@ class HomeScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text('''Good
- Morning!''', style: TextStyle(color: Colors.black, fontSize: 15)),
+Morning!''', style: TextStyle(color: Colors.black, fontSize: 20)),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -223,3 +223,4 @@ class HomeScreen extends StatelessWidget {
         ));
   }
 }
+20
