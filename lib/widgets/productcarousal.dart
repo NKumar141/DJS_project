@@ -61,6 +61,9 @@ class ProductCarousal extends StatelessWidget {
               },
             )
           ]),
+          SizedBox(
+            width: 6,
+          ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
