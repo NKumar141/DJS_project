@@ -33,28 +33,17 @@ class ProductCarousal extends StatelessWidget {
             ),
           ),
           Text(products[index].name, style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold), textAlign: TextAlign.center),
-          Expanded(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: <Widget>[
-                Text(
-                  '\$${products[index].price.toStringAsFixed(2)}',
-                  style: TextStyle(color: Colors.orange, fontSize: 18, fontWeight: FontWeight.bold),
-                ),
-                SizedBox(
-                  height: 4,
-                ),
-                FlatButton(
-                  padding: EdgeInsets.all(4),
-                  color: Colors.blueAccent,
-                  child: Text(
-                    "Add",
-                    style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
-                  ),
-                  onPressed: () {},
-                )
-              ],
+          SizedBox(
+            height: 4,
+          ),
+          FlatButton(
+            padding: EdgeInsets.all(4),
+            color: Colors.blueAccent,
+            child: Text(
+              "Add",
+              style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),
             ),
+            onPressed: () {},
           )
         ],
       ),
@@ -74,7 +63,7 @@ class ProductCarousal extends StatelessWidget {
           ),
         ),
         Container(
-          height: 300,
+          height: 320,
           child: ListView.builder(
               padding: EdgeInsets.symmetric(horizontal: 10),
               itemCount: products.length,
