@@ -34,7 +34,7 @@ class ProductCarousal extends StatelessWidget {
           ),
           Text(products[index].name, style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold), textAlign: TextAlign.center),
           SizedBox(
-            height: 4,
+            height: 64,
           ),
           FlatButton(
             padding: EdgeInsets.all(4),
