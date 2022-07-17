@@ -92,6 +92,7 @@ class ProductCarousal extends StatelessWidget {
               child: Text(
                 "\$5 OFF the price of admission",
                 style: TextStyle(color: Colors.black, fontSize: 15),
+                textAlign: TextAlign.center,
               ),
             ),
           )
