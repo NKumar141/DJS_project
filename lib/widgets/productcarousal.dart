@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tryingoutamazon/models/product_model.dart';
+import 'package:dotted_border/dotted_border.dart';
 
 class ProductCarousal extends StatelessWidget {
   final String title;
@@ -77,6 +78,11 @@ class ProductCarousal extends StatelessWidget {
               ),
             ],
           ),
+          DottedBorder(
+            color: Colors.black,
+            strokeWidth: 1,
+            child: Text("hello dear"),
+          )
         ],
       ),
     );
