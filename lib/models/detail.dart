@@ -22,7 +22,7 @@ class _MyHomePageState extends State<yes> {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               SizedBox(
-                width: 100,
+                width: 40,
               ),
               Text('The Alabama Theatre'),
               Image.network(
