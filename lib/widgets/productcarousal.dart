@@ -39,7 +39,7 @@ class ProductCarousal extends StatelessWidget {
           SizedBox(
             height: 5,
           ),
-          Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
             FlatButton(
               padding: EdgeInsets.all(4),
               color: Colors.blueAccent,
