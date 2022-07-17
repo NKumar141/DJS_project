@@ -103,12 +103,12 @@ class HomeScreen extends StatelessWidget {
                       onPressed: () {
                         print('Pressed');
                       },
-                    )
+                    ),
                   ],
                 ),
                 Image(
                   image: AssetImage('assets/images/stuart.png'),
-                  height: 222,
+                  height: 2,
                   width: 187,
                 ),
               ],
