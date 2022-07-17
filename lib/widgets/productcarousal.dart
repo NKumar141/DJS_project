@@ -18,6 +18,7 @@ class ProductCarousal extends StatelessWidget {
         ],
       ),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Container(
             color: Colors.white,
