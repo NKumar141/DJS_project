@@ -86,7 +86,7 @@ class ProductCarousal extends StatelessWidget {
             padding: EdgeInsets.all(3),
             strokeWidth: 3,
             child: Container(
-              height: 100,
+              height: 20,
               width: 120,
               color: Colors.amber,
             ),
