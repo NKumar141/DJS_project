@@ -65,7 +65,7 @@ class ProductCarousal extends StatelessWidget {
             children: [
               Text(
                 "used 23 times today ,",
-                style: TextStyle(color: Colors.white, fontSize: 15),
+                style: TextStyle(color: Colors.blue, fontSize: 15),
               ),
               Text(
                 "2 remaining",
