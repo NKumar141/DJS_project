@@ -8,8 +8,8 @@ class ProductCarousal extends StatelessWidget {
 
   _product(int index) {
     return Container(
-      margin: EdgeInsets.all(10),
-      padding: EdgeInsets.all(10),
+      //margin: EdgeInsets.all(4),
+      padding: EdgeInsets.all(4),
       width: 250,
       // decoration: BoxDecoration(
       //   color: Colors.white,
