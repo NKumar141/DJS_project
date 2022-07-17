@@ -70,10 +70,9 @@ class HomeScreen extends StatelessWidget {
               padding: EdgeInsets.all(30),
               child: Row(
                 children: [
-                  OutlinedButton.icon(
+                  OutlinedButton(
                     style: ButtonStyle(shape: MaterialStateProperty.all<RoundedRectangleBorder>(RoundedRectangleBorder(borderRadius: BorderRadius.circular(18.0), side: BorderSide(color: Colors.red)))),
-                    label: Text('3-5 miles'),
-                    icon: Icon(Icons.location_pin),
+                    child: Text('3-5 miles'),
                     onPressed: () {
                       print('Pressed');
                     },
