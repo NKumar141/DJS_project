@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tryingoutamazon/models/product_model.dart';
 import 'package:tryingoutamazon/screens/CartScreen.dart';
 import 'package:tryingoutamazon/widgets/productcarousal.dart';
+import '../models/detail.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key key}) : super(key: key);
@@ -168,9 +169,14 @@ class HomeScreen extends StatelessWidget {
             SizedBox(
               height: 15,
             ),
-            ProductCarousal(
-              title: "Offers Near Me",
-              products: products,
+            InkWell(
+              onTap: () {
+                Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => detail()));
+              },
+              child: ProductCarousal(
+                title: "Offers Near Me",
+                products: products,
+              ),
             ),
             ProductCarousal(
               title: "Favourite Buisnesses",
