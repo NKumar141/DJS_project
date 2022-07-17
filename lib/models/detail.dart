@@ -18,6 +18,12 @@ class _MyHomePageState extends State<yes> {
             alignment: Alignment.center,
             fit: BoxFit.fill,
           ),
+          Row(
+            children: [
+              Text('The Alabama Theatre'),
+              Image.network('https://png.pngtree.com/png-clipart/20220429/original/pngtree-glossy-heart-best-vector-ai-and-png-png-image_7581956.png'),
+            ],
+          ),
         ],
       ),
     );
