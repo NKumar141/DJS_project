@@ -97,7 +97,7 @@ class signin extends StatelessWidget {
                       Image.network(
                         'https://pngimg.com/uploads/apple_logo/apple_logo_PNG19680.png',
                         width: 70,
-                        height: 70,
+                        height: 60,
                       ),
                       Text(
                         "Continue With Apple",
