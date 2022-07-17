@@ -11,7 +11,7 @@ class ProductCarousal extends StatelessWidget {
       //margin: EdgeInsets.all(4),
       padding: EdgeInsets.all(4),
       width: 250,
-      height: 400,
+      height: 600,
       // decoration: BoxDecoration(
       //   color: Colors.white,
       //   boxShadow: [
