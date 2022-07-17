@@ -85,6 +85,10 @@ class ProductCarousal extends StatelessWidget {
             color: Colors.black,
             padding: EdgeInsets.all(3),
             strokeWidth: 1,
+            dashPattern: [
+              10,
+              6
+            ],
             child: Container(
               height: 34,
               width: 220,
