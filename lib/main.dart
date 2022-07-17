@@ -53,7 +53,7 @@ class signin extends StatelessWidget {
             alignment: Alignment.center,
           ),
           Padding(
-            padding: EdgeInsets.fromLTRB(40, 10, 40, 15),
+            padding: EdgeInsets.fromLTRB(40, 0, 40, 15),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
@@ -93,8 +93,8 @@ class signin extends StatelessWidget {
                     children: [
                       Image.network(
                         'https://pngimg.com/uploads/apple_logo/apple_logo_PNG19680.png',
-                        width: 70,
-                        height: 70,
+                        width: 40,
+                        height: 40,
                       ),
                       Text(
                         "Continue With Apple",
