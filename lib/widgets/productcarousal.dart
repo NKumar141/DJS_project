@@ -9,7 +9,7 @@ class ProductCarousal extends StatelessWidget {
   _product(int index) {
     return Container(
       //margin: EdgeInsets.all(4),
-      padding: EdgeInsets.all(4),
+      padding: EdgeInsets.all(8),
       width: 250,
       height: 400,
       // decoration: BoxDecoration(
@@ -21,11 +21,16 @@ class ProductCarousal extends StatelessWidget {
       child: Column(
         //crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-          Image(
-            image: AssetImage(products[index].imageUrl),
-            height: 200,
-            width: 2700,
-            fit: BoxFit.fill,
+          Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.all(Radius.circular(8.0)),
+            ),
+            child: Image(
+              image: AssetImage(products[index].imageUrl),
+              height: 200,
+              width: 2700,
+              fit: BoxFit.fill,
+            ),
           ),
           Text(products[index].name, style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold), textAlign: TextAlign.center),
           Expanded(
